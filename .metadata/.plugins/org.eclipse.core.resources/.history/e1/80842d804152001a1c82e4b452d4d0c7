@@ -1,0 +1,34 @@
+
+
+
+
+public class Test {
+	
+	public static void main(String[] args) {
+		new Test ();
+	}
+	public Test() {
+		System.out.println("(4)asdfjıasdjfasdj");
+	}
+
+}
+class Employee extends Person{
+	
+	public Employee() {
+		this("(2) sdgjlkajgasdlşgksadşgksadlgkl");
+		System.out.println("(3) dfslşgklsfdjdgkjldkşkf");
+	}
+	
+	public Employee(String s) {
+		System.out.println(s);
+	}
+}
+class Person{
+	
+	
+	
+	public Person() {
+		System.out.println("(1) Persons no-arg constructors ");
+	}
+	
+}
